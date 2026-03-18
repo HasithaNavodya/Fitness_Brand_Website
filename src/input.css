@@ -1,8 +1,6 @@
 @import "tailwindcss";
 
-
 @variant dark (&:where(.dark, .dark *));
-
 
 @layer base {
   body {
