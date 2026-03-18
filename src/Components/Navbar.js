@@ -90,14 +90,14 @@ export default function Navbar({ onNavClick, isDark, setIsDark, isMenuOpen, setI
             <button 
               key={link.name}
               onClick={() => { link.action(); setIsMenuOpen(false); }} 
-              className="text-white text-xl font-bold text-left border-b border-gray-900 pb-2"
+              className="text-black text-xl font-bold text-left border-bone border-gray-900 pb-2"
             >
               {link.name}
             </button>
           ))}
           <button 
             onClick={() => { onNavClick('contact'); setIsMenuOpen(false); }} 
-            className="w-full bg-blue-600 text-white py-4 rounded-xl font-black text-center shadow-lg"
+            className="w-full bg-blue-600 text-white py-3 px-3 rounded-xl font-black text-center shadow-lg"
           >
             JOIN US NOW
           </button>
